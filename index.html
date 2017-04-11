@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/music.css">
+<head>
+	<title>Music History</title>
+</head>
+<header>
+	<ul>
+		<li>
+			<a href="#">View music</a>
+		</li>
+		<li>
+			<a href="#">Add music</a>
+		</li>
+		<li>
+			<a href="#">Profile</a>
+		</li>
+	</ul>
+</header>
+<body>
+<section class="flexcenter" id="searchbox">
+	<form>
+		<h3>Song Length</h3>
+			<input type="range" name="songlength" min="0" max="600" id="songlengthslider">
+		<h3>Artist Select</h3>
+		<select>
+			<option>Queens of the Stone Age</option>
+			<option>The Roots</option>
+			<option>Run the Jewels</option>
+			<option>Childish Gambino</option>
+			<option>Phantogram</option>
+		</select>
+		<h3>Album Select</h3>
+		<select>
+			<option>Songs for the Deaf</option>
+			<option>Things Fall Apart</option>
+			<option>Run the Jewels</option>
+			<option>Awaken my Love</option>
+			<option>Eyelid Movies</option>
+		</select>
+		<h3 id="genre">Genre</h3>
+			<input type="checkbox" name="rock">Rock
+			<input type="checkbox" name="classical">Classical<br>
+			<input type="checkbox" name="pop">Pop
+			<input type="checkbox" name="jazz">Jazz<br>
+			<input type="checkbox" name="blues">Blues
+			<input type="checkbox" name="hiphop">Hip Hop<br>
+		<button id="filterbutton">Filter</button>
+	</form>
+</section>
+	<aside id="resultsbox" class="flexcenter">
+		<h2 id="searchresults">Song Name</h2>
+			<ul>
+				<li>Artist name</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+		<h2 id="searchresults">Song Name</h2>
+			<ul>
+				<li>Artist name</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+		<h2 id="searchresults">Song Name</h2>
+			<ul>
+				<li>Artist name</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+		<h2 id="searchresults">Song Name</h2>
+			<ul>
+				<li>Artist name</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+		<h2 id="searchresults">Song Name</h2>
+			<ul>
+				<li>Artist name</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+	</aside>
+<script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+</html>

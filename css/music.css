@@ -1,0 +1,73 @@
+header {
+	background-color: pink;
+	border: 3px solid black;
+	width: 100%
+	justify-content: center;
+}
+header ul li+li {
+	border-left: 3px solid black;
+	padding-left: 3px;
+}
+h3 {
+	margin-left: 3px;
+}
+#songlengthslider {
+	margin-left: 10px;
+}
+select {
+	width: 99%;
+}
+header ul li {
+	display: inline-block;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+#searchbox {
+	background-color: lightblue;
+	width: 28%;
+	height: 400px;
+	float: left;
+	border: 3px solid black;
+	margin-top: 3px;
+	margin-right: 1%;
+}
+#filterbutton {
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-left: 1px;
+	width: 97%;
+	margin: 3px 2px 2px 3px;
+}
+#genre {
+	background-color: blue
+	border: 5px solid black;
+}
+form select {
+	margin: 0px 1px 0px 1px;
+}
+aside {
+	width: 68%;
+	height: 400px;
+	float: right;
+	justify-content: right;
+	border: 3px solid black;
+	margin-top: 3px;
+	
+	overflow: scroll;
+}
+#searchresults {
+	margin-left: 3px;
+}
+#resultsbox {
+	background-color: lightyellow;
+	}
+#resultsbox li+li {
+	border-left: 2px solid black;
+	padding-left: 3px;
+}
+#resultsbox li {
+	list-style-type: none;
+	display: inline-block;
+}
